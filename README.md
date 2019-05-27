@@ -43,13 +43,14 @@ It is an optional event handler for the changed event, which occurs when one or 
 
 ```javascript
 import React, {Component} from 'react';
-import TreeView from 'react-jstree';
+import TreeView from 'react-easy-jstree';
 
 export class Tree extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
+    selectNode: ['node']
       data: {
         core: {
           data: [
@@ -95,7 +96,7 @@ export class Tree extends Component {
       <div>
         <button onClick={() => this.handleClick()}>Add node</button>
         <br/><br/>
-        <TreeView treeData={data} onChange={(e, data) => this.handleChange(e, data)} />
+        <TreeView treeData={data} selectNode={this.state.selectNode} onChange={(e, data) => this.handleChange(e, data)} />
         <br />
         <p>Selected nodes: {this.state.selected.join(', ')}</p>
       </div>
