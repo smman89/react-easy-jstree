@@ -17,13 +17,13 @@ about appropriate JSON data structure.
 Install it via npm:
 
 ```shell
-npm install react-simple-jstree
+npm install react-jstree
 ```
 
 And include in your project:
 
 ```javascript
-import TreeView from 'react-simple-jstree';
+import TreeView from 'react-jstree';
 ```
 
 ## Components's Props
@@ -43,7 +43,7 @@ It is an optional event handler for the changed event, which occurs when one or 
 
 ```javascript
 import React, {Component} from 'react';
-import TreeView from 'react-simple-jstree';
+import TreeView from 'react-jstree';
 
 export class Tree extends Component {
 
