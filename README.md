@@ -17,13 +17,13 @@ about appropriate JSON data structure.
 Install it via npm:
 
 ```shell
-npm install react-jstree
+npm install react-easy-jstree
 ```
 
 And include in your project:
 
 ```javascript
-import TreeView from 'react-jstree';
+import TreeView from 'react-easy-jstree';
 ```
 
 ## Components's Props
