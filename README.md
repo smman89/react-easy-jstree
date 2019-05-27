@@ -1,4 +1,4 @@
-# react-jstree
+# react-easy-jstree
 
 ![Downloads](https://img.shields.io/npm/dm/react-simple-jstree.svg)
 ![Downloads](https://img.shields.io/npm/dt/react-simple-jstree.svg)
