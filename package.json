@@ -1,10 +1,10 @@
 {
-  "name": "react-jstree",
+  "name": "react-easy-jstree",
   "description": "The simple React.js wrapper for jstree",
   "version": "0.2.3",
   "main": "lib/index.js",
   "author": "smman89",
-  "repository": "smman89/react-jstree",
+  "repository": "smman89/react-easy-jstree",
   "license": "MIT",
   "scripts": {
     "compile": "babel src --out-dir lib",
